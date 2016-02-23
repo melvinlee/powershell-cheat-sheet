@@ -7,6 +7,16 @@ Get-Command
 #List command filter by name
 Get-Command -name *IP*
 
+##Modules
+
+#List modules
+Get-Module
+
+#List available modules
+Get-Module -ListAvailable
+
+#List modules direcotry
+($env:PSModulePath).split(";")
 
 ##Help
 
